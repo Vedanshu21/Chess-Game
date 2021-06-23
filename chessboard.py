@@ -5,6 +5,23 @@ NO CHANGES IN THIS ITERATION
 
 @Tkinter GUI Application Development Hotshot
 """
+
+"""
+Below code begins with defining the starting pattern as per the FEN notation discussed
+earlier. We do not include the castle and En passant related notation, because we
+will not be coding that in our program.
+
+We then define our Board class as a subclass of built-in dict type. This is because
+we will store the pattern as a dictionary.
+
+We then define x_axis and y_axis for our chessboard as nonimmutable tuples.
+
+The __init__ method of our class simply calls the process_notation method of
+the class.
+
+
+"""
+
 from copy import deepcopy
 import re
 
