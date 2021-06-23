@@ -1,14 +1,14 @@
 # Chess-Game
 This Chess game was developed using Tkinter by:-
-<BR>
- Vedanshu Dewangan<BR> 
- Ankit Singh <BR>
- Kalash Kumar Dani<BR>
- <BR>
+<br>
+ Vedanshu Dewangan<br> 
+ Ankit Singh <br>
+ Kalash Kumar Dani<br>
+ <br>
  Instructions to play the game:-
- <BR>
+ <br>
  Click on the piece to move, it will display all possible legal moves from that position.
  Drag the piece using your left mouse button.
  Enjoy!!
-<BR>
+<br>
   To start a new game, go to Files in the game window and click on New game button.
