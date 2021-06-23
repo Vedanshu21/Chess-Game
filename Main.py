@@ -1,4 +1,5 @@
-'''We create a class, GUI, to handle the rendering of our view files. The init method
+"""
+We create a class, GUI, to handle the rendering of our view files. The init method
 of the GUI class is called immediately on object instantiation. The init method sets
 up a Canvas widget of the required size. This canvas will act as our container for all
 objects, such as chess square areas and eventually the chess pieces.
@@ -8,7 +9,8 @@ to handle tasks based on precise location coordinates of events, such as click o
 mouse button.
 
 The init method then calls the draw_board() method, which is responsible
-for creating square blocks of alternating colors similar to a chessboard.'''
+for creating square blocks of alternating colors similar to a chessboard.
+"""
 
 import chessboard
 import tkinter as tk
@@ -106,7 +108,6 @@ class GUI:
 # To draw squares on the board we use the canvas.create_rectangle() method,
 # which draws a rectangle given the x, y coordinates for the two diagonally opposite
 # corners of the rectangle (coordinates of upper-left and lower-right edges).
-# 
 # We will need to target the board. We, therefore, add a tag named area to each
 # of the squares created on the board. This is similar to tagging of the text widget,
 # as we had done in our text editor program.
@@ -138,7 +139,8 @@ class GUI:
         self.canvas.tag_raise("occupied")
         self.canvas.tag_lower("area")
 
-        '''We define our draw_pieces() method, whose role is to draw the pieces on
+"""        
+We define our draw_pieces() method, whose role is to draw the pieces on
 a board for a given FEN notation. Because the FEN notation is available to all
 class methods, we need not pass it as an argument.
 
@@ -163,7 +165,8 @@ The final line of the method uses self.canvas.coords to place the piece
 at the calculated coordinate.
 
 Finally, we need to call our newly defined method. We do that from our show()
-method to invoke the pieces.'''
+method to invoke the pieces.
+"""
 
     def draw_pieces(self):
         self.canvas.delete("occupied")
