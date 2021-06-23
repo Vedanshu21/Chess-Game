@@ -1,9 +1,9 @@
 # Chess-Game
 This Chess game was developed using Tkinter by:-
 
- Vedanshu Dewangan /n
- Ankit Singh/n
- Kalash Kumar Dani/n
+ Vedanshu Dewangan 
+ Ankit Singh <BR>
+ Kalash Kumar Dani
 
  Instructions to play the game:-
  
