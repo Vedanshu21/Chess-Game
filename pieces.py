@@ -6,9 +6,12 @@ NO CHANGES FROM PREVIOUS ITERATION
 Tkinter GUI Application Development Hotshot
 """
 
-'''The below code defines a dictionary with pieces shortname and full name as key-value pair.
+"""
+The below code defines a dictionary with pieces shortname and full name as key-value pair.
  We then define a method create_piece which takes a piece shortname and returns the
-corresponding piece instance.'''
+corresponding piece instance.
+"""
+
 import sys
 
 SHORT_NAME = {
@@ -88,13 +91,15 @@ class Piece(object):
         return map(board.alpha_notation, allowed_moves)
 
 
-'''We define classes for each of the pieces found on a chessboard. So, we have classes
+"""
+We define classes for each of the pieces found on a chessboard. So, we have classes
 named King, Queen, Rook, Knight, Bishop, and Pawn. These classes are derived
 from the Piece super class.
 
 For now, these child classes merely define the shortname associated with them.
 We will later expand these child classes to define and enforce rules for movement
-of each of these pieces.'''
+of each of these pieces.
+"""
 
 
 class King(Piece):
