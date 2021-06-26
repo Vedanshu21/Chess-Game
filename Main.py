@@ -179,7 +179,7 @@ method to invoke the pieces.
                     self.images[filename] = tk.PhotoImage(file=filename)
                 self.canvas.create_image(0, 0, image=self.images[filename],
                                          tags=(piecename, "occupied"),
-                                         anchor="c")
+                                         anchor=CENTER)
                 x0 = (y * self.dim_square) + int(self.dim_square / 2)
                 y0 = ((7 - x) * self.dim_square) + int(self.dim_square / 2)
                 self.canvas.coords(piecename, x0, y0)
