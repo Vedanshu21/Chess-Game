@@ -109,8 +109,7 @@ class GUI:
 # which draws a rectangle given the x, y coordinates for the two diagonally opposite
 # corners of the rectangle (coordinates of upper-left and lower-right edges).
 # We will need to target the board. We, therefore, add a tag named area to each
-# of the squares created on the board. This is similar to tagging of the text widget,
-# as we had done in our text editor program.
+# of the squares created on the board.
 
     def draw_board(self):
         color = self.color2
