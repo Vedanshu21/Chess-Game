@@ -1,10 +1,4 @@
-"""
-Code illustration: 4.07
 
-NO CHANGES FROM PREVIOUS ITERATION
-
-Tkinter GUI Application Development Hotshot
-"""
 
 """
 The below code defines a dictionary with pieces shortname and full name as key-value pair.
