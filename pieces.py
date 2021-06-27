@@ -36,7 +36,7 @@ argument. In accordance with our FEN notation, it changes the shortname to
 lowercase letter for black and uppercase letter for white. The color handling is
 done in the superclass, Piece, because it is a common feature for all chess pieces.
  
- We also define a method named ref. Its only purpose is to get an instance of the
+ We also define a method named place. Its only purpose is to get an instance of the
 chessboard into the object namespace for the board and pieces to interact. We need
 this method, because our pieces will ultimately be interacting with the chessboard.
 Accordingly, we need a reference of the chessboard instance within the Piece class.'''
