@@ -2,7 +2,7 @@
 
 """
 The below code defines a dictionary with pieces shortname and full name as key-value pair.
- We then define a method create_piece which takes a piece shortname and returns the
+We then define a method create_piece which takes a piece shortname and returns the
 corresponding piece instance.
 """
 
