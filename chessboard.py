@@ -1,10 +1,3 @@
-"""
-Code illustration: 4.07
-
-NO CHANGES IN THIS ITERATION
-
-@Tkinter GUI Application Development Hotshot
-"""
 
 """
 Below code begins with defining the starting pattern as per the FEN notation discussed
