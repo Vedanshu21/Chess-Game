@@ -7,7 +7,7 @@ This Chess game was developed using Tkinter by:-
  Instructions to play the game:-
  <br>
  Click on the piece to move, it will display all possible legal moves from that position.
- Drag the piece using your left mouse button.
+ Now click on the Square where you want your piece to move.
  Enjoy!!
 <br>
   <br>
